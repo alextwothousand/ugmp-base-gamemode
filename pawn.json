@@ -1,0 +1,21 @@
+{
+	"user": "alextwothousand",
+	"repo": "ugmp-base-gamemode",
+	"entry": "gamemodes/base.pwn",
+	"output": "gamemodes/base.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"IllidanS4/PawnPlus:v1.3.2",
+		"AliLogic/UGMP-Compat:1.0"
+	],
+	"local": true,
+	"runtime": {
+		"version": "UG-MP",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777,
+		"hostname": "UG-MP Server",
+		"maxplayers": 50,
+		"language": ""
+	}
+}

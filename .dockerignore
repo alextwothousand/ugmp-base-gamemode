@@ -1,0 +1,8 @@
+# directories
+dependencies/
+.vscode/
+plugins/
+
+# files
+*.exe
+server_log.txt
