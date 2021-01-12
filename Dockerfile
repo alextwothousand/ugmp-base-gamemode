@@ -1,9 +1,9 @@
 FROM alexdev2000/ugmp-docker:latest
 
 ##
-# Add gamemode to /app directory
+# Add gamemode to workdir
 ##
-ADD . /app
+ADD . .
 
 ##
 # Ensure dependencies
@@ -20,3 +20,4 @@ RUN \
 ##
 # Run server...
 ##
+ENTRYPOINT [ "wine", "sampctl.exe", "p", "run" ]
